@@ -8,10 +8,11 @@ string invalidMonto = "";
 string invalidEdad = "";
 string invalidSeguir = "";
 string nombre = "";
-int Seguir = 0;
+int Seguir = 0, count = 0;
 bool Error = true;
 do
 {
+    count++;
     do
     {
         Console.WriteLine("\n----------BIENVENIDO-----------");
@@ -187,7 +188,8 @@ do
         else if (seguir == 0)
         {
             Console.WriteLine("\n-----------------------------------------------");
-            Console.WriteLine("             Gracias por su compra");
+            Console.WriteLine("             Gracias Por Usar El Sistema");
+            Console.WriteLine("             Clientes atendidos: " + count);
             Console.WriteLine("-------------------------------------------------");
             Error = false;
             Seguir = seguir;
