@@ -39,7 +39,11 @@ do
                 bool salir = false;
                 do
                 {
+                    Console.WriteLine("--------------------------------");
                     Console.WriteLine("Ingrese su genero");
+                    Console.WriteLine("M = Masculino");
+                    Console.WriteLine("F = Femenino");
+                    Console.WriteLine("--------------------------------");
                     Console.Write("-> ");
                     sexo = Console.ReadLine();
                     if (string.IsNullOrWhiteSpace(sexo) || sexo.Any(char.IsDigit))
