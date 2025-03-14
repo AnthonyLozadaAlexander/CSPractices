@@ -122,19 +122,38 @@ do
     }
 } while (On == true);
 
-if ((sexo == "F" || sexo == "f") &&  (Edad >= 50 && Edad <= 120))
+float descuentoEdad = 0;
+float montoEdadFinal = 0;
+if ((sexo.Equals("F", StringComparison.OrdinalIgnoreCase)) && (Edad >= 50 && Edad <= 120))
 {
-    descuento = total * 0.10f;
-    montoFinal = total - descuento;
+    descuentoEdad = total * 0.10f;
+    montoEdadFinal = montoFinal - descuentoEdad;
+    Console.WriteLine("--------------------------------------------");
+    Console.WriteLine("MontoInicial: " + monto);
+    Console.WriteLine("Descuento: " + descuento);
+    Console.WriteLine("DescuentoEdad: " + descuentoEdad);
+    Console.WriteLine("Total a Pagar: " + montoEdadFinal);
+    Console.WriteLine("-----------------------------------------------");
 }
-else if ((sexo == "M" || sexo == "m") && (Edad >= 70 && Edad <= 120))
+else if (sexo.Equals("M", StringComparison.OrdinalIgnoreCase) && (Edad >= 70 && Edad <= 120))
 {
-    descuento = total * 0.10f;
-    montoFinal = total - descuento;
+    descuentoEdad = total * 0.10f;
+    montoEdadFinal = montoFinal - descuentoEdad;
+    Console.WriteLine("--------------------------------------------");
+    Console.WriteLine("MontoInicial: " + monto);
+    Console.WriteLine("Descuento: " + descuento);
+    Console.WriteLine("DescuentoEdad: " + descuentoEdad);
+    Console.WriteLine("Total a Pagar: " + montoEdadFinal);
+    Console.WriteLine("-----------------------------------------------");
+}
+else
+{
+    Console.WriteLine("--------------------------------------------");
+    Console.WriteLine("MontoInicial: " + monto);
+    Console.WriteLine("Descuento: " + descuento);
+    Console.WriteLine("Total a Pagar: " + montoFinal);
+    Console.WriteLine("-----------------------------------------------");
 }
 
-Console.WriteLine("--------------------------------------------");
-Console.WriteLine("MontoInicial: " + monto);
-Console.WriteLine("Descuento: " + descuento);
-Console.WriteLine("Total a Pagar: " + montoFinal);
-Console.WriteLine("-----------------------------------------------");
+Console.ReadKey();
+
