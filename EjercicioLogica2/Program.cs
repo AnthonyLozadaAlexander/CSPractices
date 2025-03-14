@@ -96,24 +96,27 @@ do
             descuento = monto * 0.30f; // porcentaje del descuento
             total = monto - descuento;
             montoFinal = total;
+            On = false;
         }
         else if (monto >= 500 && monto < 1000)
         {
             descuento = monto * 0.30f; // porcentaje del descuento
             total = monto - descuento;
             montoFinal = total;
+            On = false;
         }
         else if (monto < 300)
         {
             descuento = monto * 0.10f; // porcentaje del descuento
             total = monto - descuento;
             montoFinal = total;
+            On = false;
         }
     }
     
 }while(On == true);
 
-Console.WriteLine("\n--------------------------------------------");
+Console.WriteLine("--------------------------------------------");
 Console.WriteLine("MontoInicial: " + monto);
 Console.WriteLine("Descuento: " + descuento);
 Console.WriteLine("Total a Pagar: " + montoFinal);
