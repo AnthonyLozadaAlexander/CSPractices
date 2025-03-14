@@ -2,6 +2,7 @@
 
 float monto = 0, total = 0, descuento = 0, montoFinal = 0;
 bool On = true;
+int Edad = 0;
 string sexo = "";
 string invalidMonto = "";
 string invalidEdad = "";
@@ -33,6 +34,7 @@ do
             }
             else
             {
+                Edad = edad;
                 Console.WriteLine("\n------------------------------");
                 Console.WriteLine("Datos Ingresados Correctamente");
                 Console.WriteLine("------------------------------\n");
@@ -48,7 +50,8 @@ do
                     sexo = Console.ReadLine();
                     if (string.IsNullOrWhiteSpace(sexo) || sexo.Any(char.IsDigit))
                     {
-                        Console.WriteLine("\nError: No debe contener números ni estar vacío. Por favor, inténtelo nuevamente.\n");
+                        Console.WriteLine(
+                            "\nError: No debe contener números ni estar vacío. Por favor, inténtelo nuevamente.\n");
                         salir = false;
                     }
                     else if (sexo == "M" || sexo == "m" || sexo == "F" || sexo == "f")
@@ -89,7 +92,7 @@ do
         Console.WriteLine("----------------------------------------------\n");
         On = true;
     }
-    else 
+    else
     {
         Console.WriteLine("\n--------------------------------------");
         Console.WriteLine("Monto Ingresados Correctamente");
@@ -117,8 +120,18 @@ do
             On = false;
         }
     }
-    
-}while(On == true);
+} while (On == true);
+
+if ((sexo == "F" || sexo == "f") &&  (Edad >= 50 && Edad <= 120))
+{
+    descuento = total * 0.10f;
+    montoFinal = total - descuento;
+}
+else if ((sexo == "M" || sexo == "m") && (Edad >= 70 && Edad <= 120))
+{
+    descuento = total * 0.10f;
+    montoFinal = total - descuento;
+}
 
 Console.WriteLine("--------------------------------------------");
 Console.WriteLine("MontoInicial: " + monto);
