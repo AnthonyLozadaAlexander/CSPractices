@@ -10,7 +10,6 @@ do
 
     if (!float.TryParse(invalidNums, out float nums))
     {
-        Nums = nums;
         Console.WriteLine("\n-------------------------------------");
         Console.WriteLine("Error: Debe Ingresar Numeros Positivos");
         Console.WriteLine("-------------------------------------\n");
@@ -18,26 +17,26 @@ do
     }
     else if (nums <= 0)
     {
-        Nums = nums;
         Console.WriteLine("\n-------------------------------------");
         Console.WriteLine("Error: Debe Ingresar Numeros Positivos");
         Console.WriteLine("-------------------------------------\n");
-        
+        Nums = 0;
     }
     else
     {
         Nums = nums;
-        Console.WriteLine("Numero Ingresado: " + Nums);
+        Console.WriteLine("\nNumero Ingresado: " + Nums);
         sum = sum + Nums; // suma los numeros positivos ingresados para despues sacar el promedio
         count = count + 1;
-        Console.WriteLine("count -> " + count);
+        Console.WriteLine("count -> " + count + "\n");
         
     }
-}while(Nums > 0 || invalidNums != "0" || (float.Parse(invalidNums) > 0));
+}while(Nums > 0 || (float.Parse(invalidNums) > 0));
 
+promedio = (sum / count);
 Console.WriteLine("\n-----------------------------------------------");
 Console.WriteLine("Suma de los numeros positivos ingresados: " + sum);
-Console.WriteLine("Promedio: " + (sum / count));
+Console.WriteLine("Promedio: " + promedio);
 Console.WriteLine("-----------------------------------------------\n");
 
 Console.ReadKey();
