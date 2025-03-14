@@ -6,12 +6,13 @@ int Edad = 0;
 string sexo = "";
 string invalidMonto = "";
 string invalidEdad = "";
+string nombre = "";
 do
 {
     Console.WriteLine("\n----------BIENVENIDO-----------");
     Console.WriteLine("Ingrese su Nombre");
     Console.Write("-> ");
-    string nombre = Console.ReadLine();
+    nombre = Console.ReadLine();
     if (string.IsNullOrWhiteSpace(nombre) || nombre.Any(char.IsDigit))
     {
         Console.WriteLine("Error: No debe contener números ni estar vacío. Por favor, inténtelo nuevamente.");
@@ -56,7 +57,12 @@ do
                     }
                     else if (sexo == "M" || sexo == "m" || sexo == "F" || sexo == "f")
                     {
-                        Console.WriteLine("\nDato Ingresado: " + sexo + "\n");
+                        Console.WriteLine("\n------------DATOS INGRESADOS CORRECTAMENTE------------");
+                        Console.WriteLine("-----------------------------------------------");
+                        Console.WriteLine("Nombre -> " + nombre);
+                        Console.WriteLine("Edad -> " + Edad);
+                        Console.WriteLine("Sexo -> " + sexo);
+                        Console.WriteLine("-----------------------------------------------\n");
                         salir = true;
                         continuar = false;
                         On = false;
@@ -135,7 +141,7 @@ if ((sexo.Equals("F", StringComparison.OrdinalIgnoreCase)) && (Edad >= 50 && Eda
     Console.WriteLine("Total a Pagar: " + montoEdadFinal);
     Console.WriteLine("-----------------------------------------------");
 }
-else if (sexo.Equals("M", StringComparison.OrdinalIgnoreCase) && (Edad >= 70 && Edad <= 120))
+else if (sexo.Equals("M", StringComparison.OrdinalIgnoreCase) && (Edad >= 60 && Edad <= 120))
 {
     descuentoEdad = total * 0.10f;
     montoEdadFinal = montoFinal - descuentoEdad;
@@ -156,4 +162,3 @@ else
 }
 
 Console.ReadKey();
-
