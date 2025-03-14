@@ -3,14 +3,13 @@ bool On = true;
 string invalidEdad = "";
 do
 {
-    Console.Clear();
     Console.WriteLine("----------BIENVENIDO-----------");
     Console.WriteLine("Ingrese su Nombre");
     Console.Write("-> ");
     string nombre = Console.ReadLine();
     if (string.IsNullOrWhiteSpace(nombre) || nombre.Any(char.IsDigit))
     {
-        Console.WriteLine("Nombre inválido. No debe contener números ni estar vacío. Por favor, inténtelo nuevamente.");
+        Console.WriteLine("Error: No debe contener números ni estar vacío. Por favor, inténtelo nuevamente.");
         On = true;
     }
     else
@@ -18,7 +17,6 @@ do
         bool continuar = true;
         do
         {
-            Console.Clear();
             Console.WriteLine("Ingrese su Edad");
             Console.Write("-> ");
             invalidEdad = Console.ReadLine();
