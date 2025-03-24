@@ -11,11 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Loops", "For_Loops\For_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_PseudoCodigo", "Ejercicio_Pseudocodigo\Ejercicio_PseudoCodigo.csproj", "{023AFA85-A10B-4ED1-BCD0-3D7102398F29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclo_for", "Ciclo_for\Ciclo_for.csproj", "{BA6E0FC2-E2E4-481A-9CAF-D426408E8D63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CicloFor", "CicloFor\CicloFor.csproj", "{BA6E0FC2-E2E4-481A-9CAF-D426408E8D63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucle_for_2", "Bucle_for_2\Bucle_for_2.csproj", "{3736A83A-3BFB-4C70-8154-51EEBE9C2DC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucle_For2", "Bucle_For2\Bucle_For2.csproj", "{3736A83A-3BFB-4C70-8154-51EEBE9C2DC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucle_For_3", "Bucle_For_3\Bucle_For_3.csproj", "{05600429-9BD9-445C-AA12-254148B5C788}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucle_For3", "Bucle_For3\Bucle_For3.csproj", "{05600429-9BD9-445C-AA12-254148B5C788}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablasDeMultiplicar_CicloFor", "TablasDeMultiplicar_CicloFor\TablasDeMultiplicar_CicloFor.csproj", "{D5299DF4-D3B6-4441-9DCA-362B049644FF}"
 EndProject
@@ -34,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLogica_3", "EjercicioLogica_3\EjercicioLogica_3.csproj", "{8EFFE128-1915-453F-98B1-55969B4D4FDC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLogica4", "EjercicioLogica4\EjercicioLogica4.csproj", "{4FB958ED-8CF0-4139-AC34-28712EB133D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_1", "Array_1\Array_1.csproj", "{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,18 @@ Global
 		{4FB958ED-8CF0-4139-AC34-28712EB133D5}.Release|x64.Build.0 = Release|Any CPU
 		{4FB958ED-8CF0-4139-AC34-28712EB133D5}.Release|x86.ActiveCfg = Release|Any CPU
 		{4FB958ED-8CF0-4139-AC34-28712EB133D5}.Release|x86.Build.0 = Release|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Debug|x64.Build.0 = Debug|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Debug|x86.Build.0 = Debug|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|x64.ActiveCfg = Release|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|x64.Build.0 = Release|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|x86.ActiveCfg = Release|Any CPU
+		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
