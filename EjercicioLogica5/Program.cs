@@ -78,6 +78,7 @@ do
         Console.WriteLine("No = Salir");
         Console.WriteLine("------------------");
         Console.Write("-> ");
+        respuesta = Console.ReadLine();
         if (String.IsNullOrWhiteSpace(respuesta))
         {
             Console.WriteLine("\nError: No Puede Estar Vacio La Respuesta");
