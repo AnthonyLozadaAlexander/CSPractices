@@ -31,11 +31,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLogica1", "Ejercic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLogica2", "EjercicioLogica2\EjercicioLogica2.csproj", "{867C8D2C-9892-4FAA-A378-B2F58DA825B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLogica_3", "EjercicioLogica_3\EjercicioLogica_3.csproj", "{8EFFE128-1915-453F-98B1-55969B4D4FDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLogica3", "EjercicioLogica3\EjercicioLogica3.csproj", "{8EFFE128-1915-453F-98B1-55969B4D4FDC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLogica4", "EjercicioLogica4\EjercicioLogica4.csproj", "{4FB958ED-8CF0-4139-AC34-28712EB133D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_1", "Array_1\Array_1.csproj", "{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLogica5", "EjercicioLogica5\EjercicioLogica5.csproj", "{545BBA7B-7DEF-4BFA-919A-3080F7F99033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +253,18 @@ Global
 		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|x64.Build.0 = Release|Any CPU
 		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|x86.ActiveCfg = Release|Any CPU
 		{B3BFC750-18BA-4D1C-BE4D-06BEFA34F29A}.Release|x86.Build.0 = Release|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Debug|x64.Build.0 = Debug|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Debug|x86.Build.0 = Debug|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Release|x64.ActiveCfg = Release|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Release|x64.Build.0 = Release|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Release|x86.ActiveCfg = Release|Any CPU
+		{545BBA7B-7DEF-4BFA-919A-3080F7F99033}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
